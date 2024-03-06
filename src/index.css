@@ -1,0 +1,25 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  ---clr-neon: hsl(317 100% 54%);
+  /* color-scheme: light dark; */
+  font-size: 18px;
+  color: var(---clr-neon);
+  text-shadow: 0 0 0.5em var(---clr-neon);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  overflow: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+  background: linear-gradient(45deg, #2a338e ,#000,#421e5c);
+  background-size: 600% 100%;
+  animation: gradient 6s linear infinite;
+  animation-direction: alternate;
+}
+
+@keyframes gradient {
+  0% {background-position: 0%}
+  100% {background-position: 100%}
+}
